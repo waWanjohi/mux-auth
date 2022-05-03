@@ -26,8 +26,6 @@ var LoginHandler = func(w http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		panic(err)
 	}
-	// username := r.FormValue("username")
-	// password := r.FormValue("password")
 
 	// Create user if your conditions match. Below, all username and passwords are accepted.
 	user := &models.User{
